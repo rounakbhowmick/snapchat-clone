@@ -14,6 +14,10 @@ body {
     width: fit-content;
 }
 
+li {
+    cursor: pointer;
+}
+
 .title-logo {
     background: yellow;
     color: yellow;
@@ -53,7 +57,7 @@ body {
 
 a:hover {
 
-    border-bottom: 1px solid black;
+    border-bottom: 0.05px solid rgb(150, 91, 91);
 }
 
 li img {
@@ -61,7 +65,7 @@ li img {
     height: 1.5rem;
 }
 
-/*Container*/
+/*Section*/
 #section {
     display: flex;
     flex-direction: column;
@@ -102,7 +106,25 @@ img {
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
     color: rgba(0, 0, 0, 0.753);
+    margin-top: 5rem;
     margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.download {
+    display: flex;
+
+    align-self: flex-end;
+}
+
+.download img {
+    display: flex;
+    padding-right: 1rem;
+}
+
+.download img:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 /*First Footer*/
@@ -145,6 +167,11 @@ img {
     font-weight: 100;
     line-height: 1.5rem;
     color: rgba(0, 0, 0, 0.39);
+}
+
+.footer-info ol li:hover {
+    color: black;
+
 }
 
 .language-chooser {
