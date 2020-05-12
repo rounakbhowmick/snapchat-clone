@@ -18,11 +18,7 @@ li {
     cursor: pointer;
 }
 
-.title-logo {
-    background: yellow;
-    color: yellow;
-}
-
+/*Navbar*/
 #navbar {
     display: flex;
     align-items: center;
@@ -41,7 +37,7 @@ li {
     margin-left: 9.1rem;
 }
 
-#navbar ul li a {
+#navbar ul li {
     color: rgb(0, 0, 0);
     padding-left: 1.7rem;
     font-weight: 500;
@@ -51,13 +47,12 @@ li {
         Helvetica,
         sans-serif;
     font-size: 0.9rem;
-    padding-bottom: 0.5rem;
 
 }
 
 a:hover {
-
-    border-bottom: 0.05px solid rgb(150, 91, 91);
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid rgb(126, 126, 126);
 }
 
 li img {
